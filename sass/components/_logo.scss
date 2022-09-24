@@ -1,22 +1,18 @@
-header__link-web,
-header__link-stat,
-footer__web,
-footer__stat{
-  font-family: "Raleway", "sans-serif";
-  font-weight: 700;
-  font-size: 26px;
-  font-style: normal;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-}
-header__link-web,
-footer__web{
- color: var(--blue);
-}
-header__link-stat
-{
-  color: var(--black);
-}
-.footer__stat{
+.Web,
+.stat{
+    font-family: "Raleway", "sans-serif";
+    font-weight: 700;
+    font-size: 26px;
+    font-style: normal;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+  }
+.Web{
+  color: var(--blue);
+ }
+ .stat{
+   color: var(--text-black);
+ }
+ .footer__stat{
   color: var(--white);
 }

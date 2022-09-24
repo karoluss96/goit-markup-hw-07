@@ -1,28 +1,32 @@
-.sec2,
-.lorem__list{
+.sec2__lorem{
+  background-color: var(--white);
   display: flex;
-  justify-content: space-between;
-  padding: 40px;
+  gap:30px;
+  padding-bottom: 0;
   letter-spacing: 0.03em;
   align-items: center;
-}
-.lorem__list{
   font-size: 14px;
   line-height: 1.14;
-  justify-content: space-between
+  justify-content: space-between;
 }
-.lorem__item-text{
+.sec2__text{
+  font-size: 14px;
   font-weight: 700;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   display: block;
+  text-align: left;
+  list-style: none;
+  padding-right: 30px;
+  padding-top: 30px;
 }
-.lorem__item-text2{
-  color: #757575;
-}
-lorem__item-icon{
+ 
+.sec2__text-lorem{
+  padding-top: 10px;
+  font-size: 14px;
+  line-height: 1.7;
   color: var(--text-grey);
-  &:hover,
-  &:focus{
-    color: var(--blue);
-  }
+  letter-spacing: 0.03em;
+  text-align: justify;
 }
+

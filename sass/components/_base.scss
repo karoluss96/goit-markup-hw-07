@@ -1,11 +1,11 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     border: 0;
-      line-height: 1.4em;
-      vertical-align: baseline;
-      text-decoration: none;
-      outline: 0;
+    line-height: 1.4em;
+    vertical-align: baseline;
+    text-decoration: none;
+    outline: 0;
   }
   *, 
   ::after, 
@@ -14,17 +14,18 @@
   }
 ul, 
 ol {
-  list-style-type: none;
+    list-style-type: none;
 }
 body {
-    display: block;
-    color: #212121;
-    font-family: "Roboto", "Raleway", sans-serif;
+  background-color:var(--white);
+  display: block;
+  color: #212121;
+  font-family: "Roboto", "Raleway", sans-serif;
   }
   
-  html {
-    line-height: 1.15;
-    -webkit-text-size-adjust: 100%;
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
   }
 figcaption{
     padding-top: 20px;
@@ -33,8 +34,16 @@ figcaption{
 img {
     display: block;
   }
-input{
+  input{
     line-height: 1.15;
     margin: 0;
+    font-size: 100%;
+    font-family: inherit;
   }
- 
+footer {
+    background-color: var(--black);
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.5;
+    padding-bottom: 60px;  
+}  
