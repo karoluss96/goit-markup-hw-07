@@ -837,8 +837,6 @@ footer button{
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--black);
-    margin-top: 40px;
-    margin-bottom: 30px;
 }
 input{
   line-height: 1.15;
