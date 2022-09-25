@@ -73,7 +73,7 @@
       text-align: center;
       letter-spacing: 0.03em;
       color: var(--black);
-      margin-bottom: 30px;
+      margin-bottom: 12px;
   }
   .form__div{
     display:flex;
@@ -89,24 +89,25 @@
       line-height: 1.16;
       letter-spacing: 0.01em;
       color: var(--text-grey);
-      margin-bottom: 4px;
-      margin-top: 10px;
+      margin-block: 4px 10px;
       &:focus-within > svg{
         color: var(--blue);
         fill: var(--blue);
         transition: var(--transition);
-
       }
+      &:first-of-type{
+      margin-top: 0;
+    }
   } 
   .form__label--svg{
     position: absolute;
     display: flex;
     width: 15px;
     height: 12px;
-    margin-top: 18px;
-    margin-left: 12px;
+    margin-block: 18px 12px;
     fill:var(--text-black);
   }
+
   
   .input__name{
     width: 12px;
