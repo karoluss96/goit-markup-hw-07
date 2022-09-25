@@ -92,13 +92,13 @@
   display: flex;
   align-items: center;
 }
+.header__list-nav[href="index.html"] {
+  margin-left: 94px;
+}
 
 .header__list-nav--a {
   text-decoration: none;
   display: flex;
-}
-.header__list-nav--a[href="index.html"] {
-  margin-left: 94px;
 }
 
 .header__list-nav .active {
