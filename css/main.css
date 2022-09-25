@@ -737,10 +737,6 @@ footer .container {
   transition: var(--transition);
 }
 
-.foot-social {
-  flex-wrap: wrap;
-}
-
 .footer__h2 {
   padding-top: 12px;
   font-weight: 700;
@@ -1307,14 +1303,6 @@ footer .container {
 }
 .port2__li:hover .port2__div--img {
   transform: translateY(0);
-  transition: var(--transition);
-}
-.port2__li:active {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-  transition: var(--transition);
-}
-.port2__li:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
   transition: var(--transition);
 }
 .port2__li:hover {
