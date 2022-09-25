@@ -66,13 +66,15 @@
     display: flex;
     align-items:center;
     &[href="index.html"] {
-      margin-left: 94px;
+      margin-right: 46px;
     }
    }
   .header__list-nav--a{
      text-decoration: none;
      display: flex;
-     
+     &[href="index.html"]{
+      margin-left: 94px;
+    }    
   }
   .header__list-nav .active{
     position: relative;
