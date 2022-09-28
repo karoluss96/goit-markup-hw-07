@@ -69,9 +69,11 @@
       margin-right: 46px;
     }
    }
-  .header__list-nav--a{
-     text-decoration: none;
+   .header__list-nav--a{
+    text-decoration: none;
      display: flex;
+   }
+  .header__list-nav a{
      &[href="index.html"]{
       margin-left: 94px;
     }    
@@ -122,7 +124,7 @@
   .header__agency,
   .header__portfolio,
   .header__contact {
-    color: var(--text-grey);
+    color: var(--text-black);
     cursor: pointer;
     text-decoration-line: none;
     font-weight: 500;
