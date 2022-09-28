@@ -527,7 +527,7 @@ footer .container {
   display: flex;
   letter-spacing: 0.06em;
   color: #fff;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
   margin-left: 12px;
   margin-top: 30px;
   padding-bottom: 3px;
@@ -917,7 +917,8 @@ footer .container {
   text-decoration: none;
   display: flex;
 }
-.header__list-nav--a[href="index.html"] {
+
+.header__list-nav a[href="index.html"] {
   margin-left: 94px;
 }
 
@@ -971,7 +972,7 @@ footer .container {
 .header__agency,
 .header__portfolio,
 .header__contact {
-  color: var(--text-grey);
+  color: var(--text-black);
   cursor: pointer;
   text-decoration-line: none;
   font-weight: 500;
