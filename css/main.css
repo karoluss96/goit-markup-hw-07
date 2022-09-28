@@ -221,6 +221,20 @@ footer {
   max-width: 696px;
 }
 
+.sec1__main-container {
+  width: 1200px;
+  color: #fff;
+  font-weight: 900;
+  font-size: 44px;
+  text-transform: uppercase;
+  line-height: 1.4;
+  text-align: center;
+  max-width: 1600px;
+  letter-spacing: 0.06em;
+  justify-content: space-between;
+  padding-top: 75px;
+}
+
 .port1__ul {
   display: flex;
   justify-content: center;
@@ -258,6 +272,18 @@ footer {
   color: var(--white);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   transition: var(--transition);
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  transition-property: background-color;
+  transition-duration: 250ms;
+}
+
+footer .container {
+  padding-top: 60px;
+  width: 1200px;
 }
 
 .sec5__clients {
