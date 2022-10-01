@@ -280,10 +280,9 @@ footer {
   transition-property: background-color;
   transition-duration: 250ms;
 }
-
-footer .container {
+.container--footer {
   padding-top: 60px;
-  width: 1200px;
+  margin: 0 auto;
 }
 
 .sec5__clients {
