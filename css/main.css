@@ -391,14 +391,6 @@ footer .container {
   transition-property: fill, background-color;
   transition: var(--transition);
 }
-.footer__ul:focus {
-  background-color: var(--blue);
-  transition: var(--transition);
-}
-.footer__ul:hover {
-  background-color: var(--blue);
-  transition: var(--transition);
-}
 
 .footer__li {
   justify-content: space-between;
