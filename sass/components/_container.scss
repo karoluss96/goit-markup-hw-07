@@ -3,8 +3,10 @@
     margin: 0 auto;
     transition-property: background-color;
     transition-duration: 250ms;
-  }
-footer .container{
-    padding-top: 60px;
+    
+    &--footer{
+      padding-top: 60px;
+      margin: 0 auto;
+    }
+    
 }
-  
