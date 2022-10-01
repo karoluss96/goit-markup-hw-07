@@ -1,18 +1,21 @@
 .Web,
 .stat{
-    font-family: "Raleway", "sans-serif";
-    font-weight: 700;
-    font-size: 26px;
-    font-style: normal;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-  }
+  font-family: "Raleway", "sans-serif";
+  font-weight: 700;
+  font-size: 26px;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
 .Web{
   color: var(--blue);
- }
- .stat{
-   color: var(--text-black);
- }
- .footer__stat{
+}
+
+.stat{
+  color: var(--text-black);
+}
+ 
+.footer__stat{
   color: var(--white);
 }

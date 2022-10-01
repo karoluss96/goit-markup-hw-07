@@ -2,13 +2,16 @@
   padding-top: 94px;
   padding-bottom: 94px;
 }
+
 .section__port1{
   padding-top: 94px;
   padding-bottom: 56px;
 }
+
 .section__port2{
   padding-bottom: 50px;
 }
+
 .ic{
   display: flex;
   justify-content: center;
@@ -22,6 +25,7 @@
   transition-property: fill, background-color;
   transition: var(--transition);
 }
+
 .ics{
   width: 70px;
   height: 70px;
@@ -38,12 +42,14 @@
   letter-spacing: 0.03em;
   align-items: center;
 }
+
 .sec3{
   background-color: var(--white);
   font-size: 14px;
   line-height: 1.14;
   justify-content: space-between
 }
+
 .sec4{
   background-color: var(--grey);
   font-size: 16px;

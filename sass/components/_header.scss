@@ -8,171 +8,206 @@
   min-height: 80px;
   display: flex;
   align-items: center;
-    &::after{
-      text-decoration: underline;
-    }
+
+  &::after{
+    text-decoration: underline;
   }
-  .header .container{
-    display: flex;
-    align-items: center;
-  }  
-  .active::after{
-    content: "";
-    display: block;
-    position: absolute;
-    border-top: 4px solid var(--blue);
-    border-bottom: 0cm;
-    border-radius: 2px;
-    width: 100%;
-    bottom: -31px;
-    left: 0;
-    background-color: var(--blue);
-  }
+
+}
+
+.header .container{
+  display: flex;
+  align-items: center;
+}
+
+.active::after{
+  content: "";
+  display: block;
+  position: absolute;
+  border-top: 4px solid var(--blue);
+  border-bottom: 0cm;
+  border-radius: 2px;
+  width: 100%;
+  bottom: -31px;
+  left: 0;
+  background-color: var(--blue);
+}
   
-  .header__link {
-    text-decoration: none;
-    font-family: Raleway;
-    font-weight: 700;
-    font-size: 26px;
-    letter-spacing: 0.03em;
-    color: var(--text-black);
-    line-height: 1.19;
-    text-decoration-line: none;
-  }
-  .header__nav--a {
-    color: var(--text-black);
-    font-weight: 500;
-    display: flex;
-  }
+.header__link {
+  text-decoration: none;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  color: var(--text-black);
+  line-height: 1.19;
+  text-decoration-line: none;
+}
+
+.header__nav--a {
+  color: var(--text-black);
+  font-weight: 500;
+  display: flex;
+}
  
-  .header__list-menu{
-    display: flex;
-  }
-  .header__list-menu1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    &:focus{
-      color: var(--blue);
-      transition: var(--transition);
-    }
-    &:hover{
-      color: var(--blue);
-    transition: var(--transition);
-    }
-  }
-  
-  .header__list-nav{
-    display: flex;
-    align-items:center;
-    &[href="index.html"] {
-      margin-right: 46px;
-    }
-   }
-   .header__list-nav--a{
-    text-decoration: none;
-     display: flex;
-   }
-  .header__list-nav a{
-     &[href="index.html"]{
-      margin-left: 94px;
-    }    
-  }
-  .header__list-nav .active{
-    position: relative;
+.header__list-menu{
+  display: flex;
+
+}
+.header__list-menu1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    
+  &:focus{
     color: var(--blue);
-    top: 0;
-    left: 0;
+    transition: var(--transition);
   }
-  .header__tel,
-  .header__mail{
-    color: var(--text-grey);
-    margin-left: 10px;
-    align-items: center;
-    &:focus{
-      fill: var(--blue);
+
+  &:hover{
+    color: var(--blue);
     transition: var(--transition);
-    }
-    &:hover{
-      fill: var(--blue);
+  }
+
+}
+  
+.header__list-nav{
+  display: flex;
+  align-items:center;
+    
+  &[href="index.html"] {
+    margin-right: 46px;
+  }
+
+}
+
+.header__list-nav--a{
+  text-decoration: none;
+  display: flex;
+}
+
+.header__list-nav a{
+
+  &[href="index.html"]{
+    margin-left: 94px;
+  } 
+
+}
+
+.header__list-nav .active{
+  position: relative;
+  color: var(--blue);
+  top: 0;
+  left: 0;
+}
+
+.header__tel,
+.header__mail{
+  color: var(--text-grey);
+  margin-left: 10px;
+  align-items: center;
+  
+  &:focus{
+    fill: var(--blue);
     transition: var(--transition);
-    }
   }
   
-  .header__list-nav1{
-    list-style-type: none;
-    margin-left: auto;
-    margin-right: 12px;
-    display: flex;
-    align-items:center;
+  &:hover{
+    fill: var(--blue);
+    transition: var(--transition);
   }
+
+}
   
-  .header__list-nav1--a{
-    text-decoration: none;
-    color: var(--text-grey);
-    margin-left: 50px;
-    display: flex;
-    &:hover{
-      color: var(--blue);
+.header__list-nav1{
+  list-style-type: none;
+  margin-left: auto;
+  margin-right: 12px;
+  display: flex;
+  align-items:center;
+}
+  
+.header__list-nav1--a{
+  text-decoration: none;
+  color: var(--text-grey);
+  margin-left: 50px;
+  display: flex;
+    
+  &:hover{
+    color: var(--blue);
     transition: var(--transition);
-    }
-    &:focus{
-      color: var(--blue);
+  }
+
+  &:focus{
+    color: var(--blue);
     transition: var(--transition);
-    }
   }
-  .header__agency,
-  .header__portfolio,
-  .header__contact {
-    color: var(--text-black);
-    cursor: pointer;
-    text-decoration-line: none;
-    font-weight: 500;
-    font-size: 14px;
-    letter-spacing: 0.02em;
-    &:focus{
-      color: var(--blue);
-  transition: var(--transition);
-    }
-    &:hover{
-      color: var(--blue);
-  transition: var(--transition);
-    }
+
+}
+
+.header__agency,
+.header__portfolio,
+.header__contact {
+  color: var(--text-black);
+  cursor: pointer;
+  text-decoration-line: none;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  
+  &:focus{
+    color: var(--blue);
+    transition: var(--transition);
   }
+
+  &:hover{
+    color: var(--blue);
+    transition: var(--transition);
+  }
+
+}
 
 .header__tel,
 .header__mail{
   cursor: pointer;
   text-decoration: none;
   color: var(--text-grey);
+  
   &:focus{
-  color: var(--blue);
-  fill: var(--blue);
-  cursor: pointer;
-  transition: var(--transition);
+    color: var(--blue);
+    fill: var(--blue);
+    cursor: pointer;
+    transition: var(--transition);
   }
+
   &:hover{
-  color: var(--blue);
-  fill: var(--blue);
-  cursor: pointer;
-  transition: var(--transition);
+    color: var(--blue);
+    fill: var(--blue);
+    cursor: pointer;
+    transition: var(--transition);
   }
+
 }
+
 .header__tel{
   margin-left: 15px;
 	padding-right: 12px;
+  
   &:hover > .header__ics{
-  fill: var(--blue);
-  transition: var(--transition);
+    fill: var(--blue);
+    transition: var(--transition);
   }
+
 }
 .header__mail{
   margin-left: 15px;
 	padding-right:50px;
+  
   &:hover > .header__ics{
     fill: var(--blue);
     transition: var(--transition);
-    }
+  }
+
 }
 
 .header__ic{
@@ -185,28 +220,35 @@
   transition-property: fill, background-color;
   transition: var(--transition);
 }
+
 .header__ics{
   margin-right: 10px;
   fill: var(--text-grey);
   transition-property: fill, background-color;
   transition: var(--transition);
+  
   &:hover{
     fill: var(--blue);
-  transition: var(--transition);
+    transition: var(--transition);
   }
+
   &:focus{
     fill: var(--blue);
-  transition: var(--transition);
+    transition: var(--transition);
   }
+  
 }
+
 .header__mail .header__ics{
   width: 16px;
   height: 12px;
 }
+
 .header__tel .header__ics{
   width: 10px;
   height: 16px;
 }
+
 .header__list-menu:not(:last-child) {
   margin-right: 46px;
 }

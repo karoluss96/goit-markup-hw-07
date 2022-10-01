@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
 }
+
 .footer__end {
   font-family: Raleway;
   font-weight: 700;
@@ -11,6 +12,7 @@
   line-height: 1.4;
   text-decoration-line: none;
 }
+
 .footer__address {
   padding-top: 20px;
   color: var(--white);
@@ -22,6 +24,7 @@
   margin-bottom: 9px;
   gap: 30px;
 }
+
 .footer__mail,
 .footer__tel {
   font-size: 14px;
@@ -30,19 +33,23 @@
   opacity: 40%;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  
   &:hover{
     text-decoration: underline;
     color: var(--blue);
     border-radius: 4px;
     transition: var(--transition); 
   }
+
   &:focus{
     text-decoration: underline;
     color: var(--blue);
     border-radius: 4px;
     transition: var(--transition);
   }
+
 }
+
 .footer__ul{
   list-style: none;
   display: flex;
@@ -53,6 +60,7 @@
   transition-property: fill, background-color;
   transition: var(--transition);
 }
+
 .footer__li{
   justify-content: space-between;
   align-items: center;
@@ -62,29 +70,37 @@
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
   fill: var(--white);
+
   &:focus-within{
     background-color: var(--blue);
     transition: var(--transition);  
   }
+
   &:hover{
     background-color: var(--blue);
     transition: var(--transition);  
   }
+
 }
+
 .footer__li--svg{
   width: 20px;
   height: 20px;
   align-items: center;
   fill: var(--white);
+
   &:hover{
     background-color: var(--blue);
     transition: var(--transition);  
   }
+
   &:focus{
     background-color: var(--blue);
     transition: var(--transition);  
   }
+
 }
+
 .footer__h2{
   padding-top: 12px;
   font-weight: 700;
@@ -98,6 +114,7 @@
   padding-bottom: 20px;
   color: var(--white);
 }
+
 .footer__li--a{
   width: 44px;
   height: 44px;
@@ -106,18 +123,23 @@
   padding-left: 12px;
   border-radius: 50%;
   fill: var(--white);
+
   &:hover{
   color: var(--white);
   transition: var(--transition);
   }
+
   &:focus{
   color: var(--white);
   transition: var(--transition);
-  }  
-  }  
-.footer__address--p{
-    padding-top: 8px;
+  } 
+
 }  
+
+.footer__address--p{
+  padding-top: 8px;
+}  
+
 .footer__div--p{
   padding-top: 12px;
   font-family: 'Roboto';
@@ -127,11 +149,13 @@
   text-transform: uppercase;
   color: #FFFFFF;
 }
+
 .footer__div--div{
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .footer__input{
   width: 400px;
   height: 50px;
@@ -143,6 +167,7 @@
   margin-top: 20px;
   padding-left: 16px;
   color: var(--white);
+
   &:hover{
     border: 1px solid var(--blue);
     border-radius: 4px;
@@ -150,14 +175,17 @@
     transition: var(--transition);
     background-color: var(--black);  
   }
+
   &:focus{
     border: 1px solid var(--blue);
-  border-radius: 4px;
-  outline: none;
-  transition: var(--transition);
-  background-color: var(--black);
+    border-radius: 4px;
+    outline: none;
+    transition: var(--transition);
+    background-color: var(--black);
   }
+
 }
+
 .footer__label--email{
 margin-bottom: 20px;
 align-items: center; 
@@ -166,6 +194,7 @@ font-size: 14px;
 font-weight: bold;
 letter-spacing: 0.03em;
 }
+
 .footer__button{
   width: 200px;
   height: 50px;
@@ -187,25 +216,32 @@ letter-spacing: 0.03em;
   padding-bottom: 3px;
   border: 0px;
   cursor: pointer;
+
   &:hover{
     box-shadow: 0px 4px 4px var(--blue); 
   }
+
   &:focus{
     box-shadow: 0px 4px 4px var(--blue);
   }
+
 }
+
 .footer__button--svg{
   width: 24px;
   height: 24px;
   margin-left: 25px;
+
   &:hover{
     color: var(--text-black);
     fill: var(--text-black);
     transition: var(--transition);
   }
+
   &:focus{
     color: var(--text-black);
     fill: var(--text-black);
     transition: var(--transition);
   }
+  
 }
