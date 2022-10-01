@@ -391,6 +391,14 @@ footer .container {
   transition-property: fill, background-color;
   transition: var(--transition);
 }
+.footer__ul:focus {
+  background-color: var(--blue);
+  transition: var(--transition);
+}
+.footer__ul:hover {
+  background-color: var(--blue);
+  transition: var(--transition);
+}
 
 .footer__li {
   justify-content: space-between;
@@ -481,6 +489,7 @@ footer .container {
 .footer__input {
   width: 400px;
   height: 50px;
+  margin-top: 10px;
   border: 1px solid var(--white);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
@@ -516,6 +525,7 @@ footer .container {
 .footer__button {
   width: 200px;
   height: 50px;
+  margin-top: 10px;
   background: var(--blue);
   border-radius: 4px;
   font-weight: 700;
@@ -1406,6 +1416,11 @@ footer .container {
   margin-right: 20px;
   margin-left: 20px;
   padding-top: 20px;
+}
+
+.sec5__li--svg {
+  width: 106px;
+  height: 60px;
 }
 
 .sec2__lorem {
