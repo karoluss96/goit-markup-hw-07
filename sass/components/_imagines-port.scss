@@ -36,58 +36,58 @@
 .port2__div{
   position: relative;
   overflow: hidden;
+
+  &--img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    letter-spacing: 0.03em;
+    background-color: rgba(33, 150, 243, 0.9);
+    transform: translateY(100%);
+    transition: var(--transition);
+    transition-property: transform;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+  }
+  &--p{
+    text-align: left;
+    padding-top: 49px;
+    padding-left: 24px;
+    padding-right: 24px;
+    font-family: "Roboto";
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+  }
 }
 
-.port2__div--img{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  letter-spacing: 0.03em;
-  background-color: rgba(33, 150, 243, 0.9);
-  transform: translateY(100%);
-  transition: var(--transition);
-  transition-property: transform;
-  transition-timing-function: ease;
-  transition-delay: 0s;
-}
 
-.port2__div--p{
-  text-align: left;
-  padding-top: 49px;
-  padding-left: 24px;
-  padding-right: 24px;
-  font-family: "Roboto";
-  font-size: 18px;
-  letter-spacing: 0.03em;
-  color: #ffffff;
-}
-
-.port2_figcaption{
+.port2__figcaption{
   padding: 20px 24px;
   border-right: 1px solid #EEEEEE;
   border-left: 1px solid #EEEEEE;
   border-bottom: 1px solid #EEEEEE;
   letter-spacing: 0.06em;
+
+  &--h3{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    padding-bottom: 4px;
+  }
+  
+  &--p{
+    color: #757575;
+    width: 322px;
+    height: 30px;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+  }
 }  
-
-.port2__figcaption--h3{
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  padding-bottom: 4px;
-}
-
-.port2__figcaption--p{
-  color: #757575;
-  width: 322px;
-  height: 30px;
-  font-size: 16px;
-  line-height: 1.875;
-  letter-spacing: 0.03em;
-}
 
 .port2__figure{
   position: relative;
@@ -111,5 +111,4 @@
     animation: cursorMoveOut 0.8s forwards;
     transition: var(--transition);
   }
-  
 }  

@@ -1,16 +1,17 @@
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
+  
+  &__port1{
+    padding-top: 94px;
+    padding-bottom: 56px;
+  }
+
+  &__port2{
+    padding-bottom: 50px;
+  }
 }
 
-.section__port1{
-  padding-top: 94px;
-  padding-bottom: 56px;
-}
-
-.section__port2{
-  padding-bottom: 50px;
-}
 
 .ic{
   display: flex;

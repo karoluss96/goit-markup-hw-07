@@ -17,7 +17,7 @@
   transition-property: opacity, transform;
   transition-duration: 250ms;
   transition-timing-function: ease-in-out;
-  }
+}
 
 .modal{
   position: absolute;
@@ -29,33 +29,33 @@
   box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
   border-radius: 4px;
   opacity: 100%;
-  }
 
-.modal__button{
-  cursor: pointer;
-  position: absolute;
-  top: 8px;
-  right: 8px;
-  width: 30px;
-  height: 30px;
-  background-color: var(--white);
-  border-radius:50%;
-  border: 1px solid rgba(0, 0, 0, 1);
-  opacity: 100%;
-  z-index: 1000;
-    
-  &:hover{
-    color: var(--blue);
-    border-color: var(--blue);
+  &__button{
     cursor: pointer;
-    transition: var(--transition); 
-  }
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 30px;
+    height: 30px;
+    background-color: var(--white);
+    border-radius:50%;
+    border: 1px solid rgba(0, 0, 0, 1);
+    opacity: 100%;
+    z-index: 1000;
+    
+    &:hover{
+      color: var(--blue);
+      border-color: var(--blue);
+      cursor: pointer;
+      transition: var(--transition); 
+    }
 
-  &:focus{
-    color: var(--blue);
-    border-color: var(--blue);
-	  cursor: pointer;
-    transition: var(--transition);
+    &:focus{
+      color: var(--blue);
+      border-color: var(--blue);
+	    cursor: pointer;
+      transition: var(--transition);
+    }
   }
 }
 
@@ -109,7 +109,6 @@
   &:first-of-type{
     margin-top: 0;
   }
-
 } 
 
 .form__label--svg{
@@ -168,7 +167,6 @@
     outline: none;
     transition: var(--transition);
   }
-
 } 
 
 .form__label--textarea{
@@ -197,7 +195,6 @@
     outline: none;
     transition: var(--transition);
   }
-
 } 
 
 .form__checkbox{
@@ -228,7 +225,6 @@
     margin-right: 9px;
     transition: var(--transition);
   }
-
 }  
 
 .form__span--a{
@@ -246,7 +242,6 @@
     color: var(--blue);
     transition: var(--transition);
   }
-
 } 
 
 .form__checkbox--input:checked + .form__span::before {
@@ -282,8 +277,8 @@
     color: #212121;
     transition: var(--transition);
   }
-
 }
+
 .form___button--span{
   padding: 10px 76px;
   letter-spacing: 0.06em;
