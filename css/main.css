@@ -265,13 +265,13 @@ footer {
   transition: var(--transition);
 }
 
-.container {
+container {
   width: 1200px;
   margin: 0 auto;
   transition-property: background-color;
   transition-duration: 250ms;
 }
-.container--footer {
+container--footer {
   width: 1600px;
   padding-top: 60px;
   display: flex;
