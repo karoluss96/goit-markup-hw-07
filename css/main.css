@@ -162,7 +162,6 @@ input {
 }
 
 footer {
-  background-color: var(--black);
   color: #fff;
   font-size: 16px;
   line-height: 1.5;
@@ -328,6 +327,8 @@ footer {
 .footer {
   display: flex;
   justify-content: space-between;
+  width: 100%;
+  background-color: var(--black);
 }
 .footer__end {
   font-family: Raleway;
@@ -1159,8 +1160,8 @@ footer {
   padding-bottom: 50px;
 }
 
-.Web,
-.stat {
+.header__web,
+.header__stat {
   font-family: "Raleway", "sans-serif";
   font-weight: 700;
   font-size: 26px;
@@ -1169,11 +1170,12 @@ footer {
   letter-spacing: 0.03em;
 }
 
-.Web {
+.header__web,
+.footer__web {
   color: var(--blue);
 }
 
-.stat {
+.header__stat {
   color: var(--text-black);
 }
 
