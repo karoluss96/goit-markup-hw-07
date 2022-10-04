@@ -1,6 +1,16 @@
 .footer {
   display: flex;
   justify-content: space-between;
+  width: 100%;
+  background-color: var(--black);
+  
+  &__web{
+    color: var(--blue);
+  }
+
+  &__stat{
+    color: var(--white);
+  }
 
   &__end{
     font-family: Raleway;
@@ -213,6 +223,7 @@
     }
   }
 }
+
 
 .footer__mail,
 .footer__tel {

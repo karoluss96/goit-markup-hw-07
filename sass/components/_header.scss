@@ -1,5 +1,4 @@
 .header {
-  background-color: #fff;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -7,7 +6,24 @@
   border-bottom: 1px solid #ececec;
   min-height: 80px;
   display: flex;
-  align-items: center;
+
+  &__web,
+  &__stat{
+    font-family: "Raleway", "sans-serif";
+    font-weight: 700;
+    font-size: 26px;
+    font-style: normal;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+  }
+
+  &__web{
+    color: var(--blue);
+  }
+
+  &__stat{
+    color: var(--text-black);
+  }
 
   &::after{
     text-decoration: underline;
@@ -15,8 +31,6 @@
 
   &__link{
     text-decoration: none;
-    font-family: Raleway;
-    font-weight: 700;
     font-size: 26px;
     letter-spacing: 0.03em;
     color: var(--text-black);
@@ -25,8 +39,6 @@
   }
 
   &__nav--a{
-    color: var(--text-black);
-    font-weight: 500;
     display: flex;
   }
 
@@ -85,6 +97,63 @@
 
     &:focus{
       color: var(--blue);
+      transition: var(--transition);
+    }
+  }
+
+  &__link{
+    color: var(--text-black);
+    cursor: pointer;
+    text-decoration-line: none;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+  
+    &:focus{
+      color: var(--blue);
+      transition: var(--transition);
+    }
+
+    &:hover{
+      color: var(--blue);
+      transition: var(--transition);
+    }
+  } 
+
+  &__list-nav a{
+
+    &[href="index.html"]{
+      margin-left: 94px;
+    } 
+  }
+  
+  &__list-nav .active{
+    position: relative;
+    color: var(--blue);
+    top: 0;
+    left: 0;
+  }
+  
+  &__tel,
+  &__mail{
+    color: var(--text-grey);
+    margin-left: 10px;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--text-grey);
+    
+    &:focus{
+      fill: var(--blue);
+      color: var(--blue);
+      cursor: pointer;
+      transition: var(--transition);
+    }
+    
+    &:hover{
+      fill: var(--blue);
+      color: var(--blue);
+      cursor: pointer;
       transition: var(--transition);
     }
   }
@@ -160,67 +229,8 @@
   background-color: var(--blue);
 }
   
-.header__list-nav a{
 
-  &[href="index.html"]{
-    margin-left: 94px;
-  } 
-
-}
-
-.header__list-nav .active{
-  position: relative;
-  color: var(--blue);
-  top: 0;
-  left: 0;
-}
-
-.header__tel,
-.header__mail{
-  color: var(--text-grey);
-  margin-left: 10px;
-  align-items: center;
-  cursor: pointer;
-  text-decoration: none;
-  color: var(--text-grey);
   
-
-  &:focus{
-    fill: var(--blue);
-    color: var(--blue);
-    cursor: pointer;
-    transition: var(--transition);
-  }
-  
-  &:hover{
-    fill: var(--blue);
-    color: var(--blue);
-    cursor: pointer;
-    transition: var(--transition);
-  }
-}
-  
-.header__agency,
-.header__portfolio,
-.header__contact {
-  color: var(--text-black);
-  cursor: pointer;
-  text-decoration-line: none;
-  font-weight: 500;
-  font-size: 14px;
-  letter-spacing: 0.02em;
-  
-  &:focus{
-    color: var(--blue);
-    transition: var(--transition);
-  }
-
-  &:hover{
-    color: var(--blue);
-    transition: var(--transition);
-  }
-
-}
 
 
 .header__mail .header__ics{
