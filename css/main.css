@@ -132,10 +132,12 @@ ol {
 }
 
 body {
+  width: 1600px;
   background-color: var(--white);
   display: block;
   color: #212121;
   font-family: "Roboto", "Raleway", sans-serif;
+  margin: 0 auto;
 }
 
 html {
@@ -265,19 +267,18 @@ footer {
   transition: var(--transition);
 }
 
-container {
+.container {
   width: 1200px;
   margin: 0 auto;
   transition-property: background-color;
   transition-duration: 250ms;
+  padding-left: 15px;
+  padding-right: 15px;
 }
-container--footer {
-  width: 1600px;
+.container--footer {
   padding-top: 60px;
   display: flex;
   justify-content: space-between;
-  display: flex;
-  align-items: center;
 }
 
 .sec5__clients {
@@ -819,7 +820,6 @@ container--footer {
 }
 
 .header {
-  background-color: #fff;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -827,15 +827,12 @@ container--footer {
   border-bottom: 1px solid #ececec;
   min-height: 80px;
   display: flex;
-  align-items: center;
 }
 .header::after {
   text-decoration: underline;
 }
 .header__link {
   text-decoration: none;
-  font-family: Raleway;
-  font-weight: 700;
   font-size: 26px;
   letter-spacing: 0.03em;
   color: var(--text-black);
@@ -843,8 +840,6 @@ container--footer {
   text-decoration-line: none;
 }
 .header__nav--a {
-  color: var(--text-black);
-  font-weight: 500;
   display: flex;
 }
 .header__list-menu {
@@ -892,6 +887,22 @@ container--footer {
   transition: var(--transition);
 }
 .header__list-nav1--a:focus {
+  color: var(--blue);
+  transition: var(--transition);
+}
+.header__link {
+  color: var(--text-black);
+  cursor: pointer;
+  text-decoration-line: none;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+}
+.header__link:focus {
+  color: var(--blue);
+  transition: var(--transition);
+}
+.header__link:hover {
   color: var(--blue);
   transition: var(--transition);
 }
@@ -989,29 +1000,6 @@ container--footer {
   fill: var(--blue);
   color: var(--blue);
   cursor: pointer;
-  transition: var(--transition);
-}
-
-.header__agency,
-.header__portfolio,
-.header__contact {
-  color: var(--text-black);
-  cursor: pointer;
-  text-decoration-line: none;
-  font-weight: 500;
-  font-size: 14px;
-  letter-spacing: 0.02em;
-}
-.header__agency:focus,
-.header__portfolio:focus,
-.header__contact:focus {
-  color: var(--blue);
-  transition: var(--transition);
-}
-.header__agency:hover,
-.header__portfolio:hover,
-.header__contact:hover {
-  color: var(--blue);
   transition: var(--transition);
 }
 
@@ -1150,20 +1138,16 @@ container--footer {
   position: absolute;
   justify-content: center;
   text-transform: uppercase;
-  text-align: center;
   align-items: center;
   height: 70px;
   width: 370px;
   bottom: 0px;
-  overflow: hidden;
-  margin: auto;
   color: #fff;
   font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
   letter-spacing: 0.03em;
   background: rgba(47, 48, 58, 0.8);
-  opacity: 100%;
 }
 
 .sec3__h2 {
