@@ -1,18 +1,17 @@
-container{
+.container{
     width: 1200px;
     margin: 0 auto;
     transition-property: background-color;
     transition-duration: 250ms;
+    padding-left: 15px;  
+    padding-right: 15px;
     
   &--footer{
-    width: 1600px;
     padding-top: 60px;
     display: flex;
     justify-content: space-between;
-    display: flex;
-    align-items: center;
+    
   }
 }
 
    
-  
