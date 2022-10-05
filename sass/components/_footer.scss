@@ -3,6 +3,14 @@
   justify-content: space-between;
   width: 100%;
   background-color: var(--black);
+
+  &__container{
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+  }
   
   &__web{
     color: var(--blue);
