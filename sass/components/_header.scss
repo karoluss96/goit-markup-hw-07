@@ -82,25 +82,25 @@
     margin-right: 12px;
     display: flex;
     align-items:center;
-  }
 
-  &__list-nav1--a{
-    text-decoration: none;
-    color: var(--text-grey);
-    margin-left: 50px;
-    display: flex;
+    &--a{
+      text-decoration: none;
+      color: var(--text-grey);
+      margin-left: 50px;
+      display: flex;
     
-    &:hover{
-      color: var(--blue);
-      transition: var(--transition);
-    }
+      &:hover{
+        color: var(--blue);
+        transition: var(--transition);
+      }
 
-    &:focus{
-      color: var(--blue);
-      transition: var(--transition);
+      &:focus{
+        color: var(--blue);
+        transition: var(--transition);
+      }
     }
   }
-
+  
   &__link{
     color: var(--text-black);
     cursor: pointer;

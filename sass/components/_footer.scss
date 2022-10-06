@@ -180,12 +180,12 @@
     font-size: 14px;
     font-weight: bold;
     letter-spacing: 0.03em;
+    padding-right: 12px;
   }
 
   &__button{
     width: 200px;
     height: 50px;
-    margin-top: 10px;
     background: var(--blue);
     border-radius: 4px;
     font-weight: 700;
@@ -197,10 +197,6 @@
     display: flex;
     letter-spacing: 0.06em;
     color: #fff;
-    margin-bottom: 30px;
-    margin-left: 12px;
-    margin-top: 30px;
-    padding-bottom: 3px;
     border: 0px;
     cursor: pointer;
 
@@ -230,30 +226,29 @@
       }
     }
   }
-}
-
-
-.footer__mail,
-.footer__tel {
-  font-size: 14px;
-  text-decoration-line: none;
-  color: rgba(255, 255, 255, 0.6);
-  opacity: 40%;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
   
-  &:hover{
-    text-decoration: underline;
-    color: var(--blue);
-    border-radius: 4px;
-    transition: var(--transition); 
+  &__mail,
+  &__tel{
+    font-size: 14px;
+    text-decoration-line: none;
+    color: rgba(255, 255, 255, 0.6);
+    opacity: 40%;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+  
+    &:hover{
+      text-decoration: underline;
+      color: var(--blue);
+      border-radius: 4px;
+      transition: var(--transition); 
   }
 
-  &:focus{
-    text-decoration: underline;
-    color: var(--blue);
-    border-radius: 4px;
-    transition: var(--transition);
+    &:focus{
+      text-decoration: underline;
+      color: var(--blue);
+      border-radius: 4px;
+      transition: var(--transition);
+    }
   }
 }
 

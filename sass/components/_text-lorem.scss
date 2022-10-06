@@ -8,26 +8,24 @@
   font-size: 14px;
   line-height: 1.14;
   justify-content: space-between;
-}
-
-.sec2__text{
-  font-size: 14px;
-  font-weight: 700;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  display: block;
-  text-align: left;
-  list-style: none;
-  padding-right: 30px;
-  padding-top: 30px;
-}
- 
-.sec2__text-lorem{
-  padding-top: 10px;
-  font-size: 14px;
-  line-height: 1.7;
-  color: var(--text-grey);
-  letter-spacing: 0.03em;
-  text-align: justify;
+  &-title{
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    display: block;
+    text-align: left;
+    list-style: none;
+    padding-right: 30px;
+    padding-top: 30px;
+  }
+  &-text{
+    padding-top: 10px;
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--text-grey);
+    letter-spacing: 0.03em;
+    text-align: justify;
+  }
 }
 

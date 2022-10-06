@@ -1,4 +1,4 @@
-.sec5__clients{
+.sec5-clients{
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -6,16 +6,16 @@
   color: var(--text-black);
   letter-spacing: 0.03em;
   margin-bottom: 50px;
-}
 
-.sec5__list-clients{
-  display: flex;
-  list-style: none;
-  justify-content: space-between;
-  align-items: center;
-  margin-right: 20px;
-  margin-left: 20px;
-  padding-top: 20px;
+  &__list{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-top: 20px;
+  }
 }
 
 .sec5__ul--a{
@@ -42,4 +42,9 @@
     color: var(--blue);
     transition: var(--transition); 
   }
+}
+
+.sec5__li--svg{
+  width: 106px;
+  height: 60px;
 }
